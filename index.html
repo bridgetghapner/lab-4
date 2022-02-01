@@ -5,28 +5,33 @@
 		<title>Lab 4 Form Assignment</title>
 		<style>
 			div {margin-top: 25px}
+			.box {
+				border: 1px solid black;
+				margin: 25px;
+			}
 		</style>
 	</head>
 	<body>
 		<form method="POST" autocomplete="on" action="https://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-		<h1>Volunteer Form</h1>
-		<h3>My Info:</h3>
-		<div>
-			<label for="first name">First Name:</label>
-			<input id="first name" name="first_name_field" type="text" autofocus>
-		</div>
-		<div>
-			<label for="last name">Last Name:</label>
-			<input id="last name" name="last_name_field" type="text">
-		</div>
-		<div>
-			<label for="phone number">Phone Number:</label>
-			<input id="phone number" name="phone_field" type="text">
-		</div>
-		<div>
-			<label for="email address">Email Address:</label>
-			<input id="email address" name="email_field" type="text">
-		</div>
-	</form>
-	</body>
-	</html>
+			<section class="box">
+				<h1>Volunteer Form</h1>
+				<h3>My Info:</h3>
+				<div>
+					<label for="first name">First Name:</label>
+					<input id="first name" name="first_name_field" type="text" autofocus>
+				</div>
+				<div>
+					<label for="last name">Last Name:</label>
+					<input id="last name" name="last_name_field" type="text">
+				</div>
+				<div>
+					<label for="phone number">Phone Number:</label>
+					<input id="phone number" name="phone_field" type="text">
+				</div>
+				<div>
+					<label for="email address">Email Address:</label>
+					<input id="email address" name="email_field" type="text">
+				</div>
+			</form>
+		</body>
+		</html>
