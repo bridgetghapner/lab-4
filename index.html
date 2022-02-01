@@ -5,17 +5,12 @@
 		<title>Lab 4 Form Assignment</title>
 		<style>
 			div {margin-top: 25px}
-			.box {
-				border: 1px solid black;
-				margin: 25px;
-				padding: 10px;
-			}
 		</style>
 	</head>
 	<body>
 		<form method="POST" autocomplete="on" action="https://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
 			<h1>Volunteer Form</h1>
-			<section class="box">
+			<fieldset>
 				<h3>My Info:</h3>
 				<div>
 					<label for="firstname">First Name:</label>
@@ -52,8 +47,10 @@
 						<option>65 and over</option>
 					</select>
 				</div>
-			</section>
-			<h3>My Availability:</h3>
+			</fieldset>
+			<fieldset>
+				<legend>My Availability:</legend>
+			</fieldset>
 			<section class="box2">
 				<div>
 					<label><input type="checkbox" name="checkboxfield[]" value="Monday">Monday</label><br>
