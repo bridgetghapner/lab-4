@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<form method="POST" autocomplete="on" action="https://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-			<h1>Volunteer Form</h1>
+			<legend>Volunteer Form</legend>
 			<fieldset>
 				<h3>My Info:</h3>
 				<div>
@@ -51,7 +51,7 @@
 			<fieldset>
 				<legend>My Availability:</legend>
 			</fieldset>
-			<section class="box2">
+			<section>
 				<div>
 					<label><input type="checkbox" name="checkboxfield[]" value="Monday">Monday</label><br>
 					<label><input type="checkbox" name="checkboxfield[]" value="Tuesday">Tuesday</label><br>
@@ -65,7 +65,9 @@
 					<label for="comments">Any comments?</label><br>
 					<textarea name="comments_field" placeholder="Tell us your comments here" col="20" rows="10"></textarea>
 				</div>
-
+			</section>
+			<section>
+				<input type="submit" value="Send Me">
 			</section>
 			</form>
 		</body>
