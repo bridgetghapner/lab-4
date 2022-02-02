@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<form method="POST" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-			<h1>Volunteer Form</H1>
+			<h1>Volunteer Form</h1>
 			<fieldset>
 				<legend>My Info:</legend>
 				<div>
@@ -54,25 +54,27 @@
 			<fieldset id="availability">
 				<legend>My Availability:</legend>
 				<div>
-					<label><input type="checkbox" name="availablefield[]" value="Monday">Monday</label><br>
-					<label><input type="checkbox" name="availablefield[]" value="Tuesday">Tuesday</label><br>
-					<label><input type="checkbox" name="availablefield[]" value="Wednesday">Wednesday</label><br>
-					<label><input type="checkbox" name="availablefield[]" value="Thursday">Thursday</label><br>
-					<label><input type="checkbox" name="availablefield[]" value="Friday">Friday</label><br>
-					<label><input type="checkbox" name="availablefield[]" value="Saturday">Saturday</label><br>
-					<label><input type="checkbox" name="availablefield[]" value="Sunday">Sunday</label>
+					<label><input type="checkbox" name="available_field[]" value="Monday">Monday</label><br>
+					<label><input type="checkbox" name="available_field[]" value="Tuesday">Tuesday</label><br>
+					<label><input type="checkbox" name="available_field[]" value="Wednesday">Wednesday</label><br>
+					<label><input type="checkbox" name="available_field[]" value="Thursday">Thursday</label><br>
+					<label><input type="checkbox" name="available_field[]" value="Friday">Friday</label><br>
+					<label><input type="checkbox" name="available_field[]" value="Saturday">Saturday</label><br>
+					<label><input type="checkbox" name="available_field[]" value="Sunday">Sunday</label>
 				</div>
 				<div>
 					<label for="comments">Any comments?</label><br>
 					<textarea id="comments" name="comments_field" placeholder="Tell us your comments here" cols="30" rows="10"></textarea>
 				</div>
 			</fieldset>
-			<div>
-				<input type="hidden" name="hidden_field" value="bhapner@hawk.iit.edu">
-			</div>
-			<div>
-				<input type="submit" value="Send Me">
-			</div>
-			</form>
-		</body>
-		</html>
+			<section>
+				<div>
+					<input type="hidden" name="hidden_field" value="bhapner@hawk.iit.edu">
+				</div>
+				<div>
+					<input type="submit" value="Send Me">
+				</div>
+			</section>
+		</form>
+	</body>
+</html>
